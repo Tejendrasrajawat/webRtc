@@ -1,0 +1,31 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.create_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.answer_box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.answer_box > input {
+  padding: 0.5rem;
+  border: 1px dotted red;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}

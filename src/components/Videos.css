@@ -1,0 +1,33 @@
+.video_con {
+  width: 90vw;
+  margin: 10px auto;
+  border: 1px solid black;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+video {
+  height: 300px;
+}
+
+.buttonsContainer {
+  text-align: center;
+}
+
+.hangup {
+  background: red;
+  margin: 1rem;
+}
+
+.hangup:disabled {
+  display: none;
+}
+
+.modalContainer {
+  text-align: center;
+}
+
+.container > button {
+  margin: 0.5rem;
+}
